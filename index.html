@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aprende a crear hermosas flores y manualidades con cintas de satén y organza. Tutoriales, técnicas y galería de flores hechas a mano." />
+  <title>Flores de Cintas &amp; Manualidades | Arte en Tus Manos</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="chatbot.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header>
+    <nav class="navbar" role="navigation" aria-label="Menú principal">
+      <div class="nav-brand">
+        <span class="nav-icon">🌸</span>
+        <span class="nav-title">Arte en Tus Manos</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#que-son">¿Qué son?</a></li>
+        <li><a href="#tipos">Tipos de Flores</a></li>
+        <li><a href="#tutorial">Tutorial</a></li>
+        <li><a href="#materiales">Materiales</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#consejos">Consejos</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú">&#9776;</button>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+    <img src="img/ribbon_flowers_hero.png" alt="Flores de cintas coloridas" class="hero-bg" />
+    <div class="hero-content">
+      <p class="hero-tag">✂️ Manualidades con Cintas</p>
+      <h1>El Arte de las<br /><em>Flores de Cintas</em></h1>
+      <p class="hero-sub">Transforma simples cintas en creaciones florales llenas de color, textura y magia artesanal.</p>
+      <div class="hero-btns">
+        <a href="#tutorial" class="btn btn-primary">Ver Tutorial</a>
+        <a href="#galeria" class="btn btn-outline">Ver Galería</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Desplázate ↓</span>
+    </div>
+  </section>
+
+  <!-- ===== QUÉ SON ===== -->
+  <section class="section section-light" id="que-son">
+    <div class="container">
+      <div class="section-header">
+        <span class="label-tag">💡 Introducción</span>
+        <h2>¿Qué son las Flores de Cintas?</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="two-col">
+        <div class="col-text">
+          <p>Las <strong>flores de cintas</strong> son una antigua técnica de manualidades que consiste en doblar, plegar, enroscar y coser diferentes tipos de cintas —principalmente de <em>satén</em>, <em>organza</em> o <em>grosgrain</em>— para crear hermosas flores decorativas.</p>
+          <p>Originada en las cortes europeas del siglo XVII como adorno para vestidos y sombreros, hoy en día es una de las manualidades más populares en todo el mundo. Se utiliza para decorar:</p>
+          <ul class="check-list">
+            <li>💐 Ramos y arreglos florales</li>
+            <li>👗 Accesorios de moda (diademas, broches, bolsos)</li>
+            <li>🎁 Decoración de regalos y cajas</li>
+            <li>🏡 Adornos para el hogar y marcos</li>
+            <li>💒 Centros de mesa y decoración de bodas</li>
+            <li>🎀 Tarjetas y álbumes de scrapbooking</li>
+          </ul>
+        </div>
+        <div class="col-image">
+          <img src="img/ribbon_wreath.png" alt="Corona de flores de cintas" class="rounded-img" />
+          <div class="img-caption">Corona decorativa hecha a mano con flores de cintas</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TIPOS DE FLORES ===== -->
+  <section class="section section-pink" id="tipos">
+    <div class="container">
+      <div class="section-header">
+        <span class="label-tag">🌺 Variedades</span>
+        <h2>Tipos de Flores que Puedes Crear</h2>
+        <div class="divider"></div>
+        <p class="section-desc">Cada tipo de cinta y técnica genera un resultado distinto. Descubre las flores más populares:</p>
+      </div>
+      <div class="cards-grid">
+        <article class="card" id="card-rosa">
+          <div class="card-icon">🌹</div>
+          <h3>Rosa de Satén</h3>
+          <p>La reina de las flores de cintas. Se hace enrollando y cosiendo cinta de satén en espiral. Perfecta para broches y ramos.</p>
+          <span class="difficulty easy">Fácil</span>
+        </article>
+        <article class="card" id="card-peonias">
+          <div class="card-icon">🌸</div>
+          <h3>Peonía</h3>
+          <p>Con capas de pétalos redondeados hechos de cinta de organza. Da un efecto voluminoso y romántico excepcional.</p>
+          <span class="difficulty medium">Intermedio</span>
+        </article>
+        <article class="card" id="card-tulipan">
+          <div class="card-icon">🌷</div>
+          <h3>Tulipán</h3>
+          <p>Pétalos alargados formados por dobleces precisos. Ideal para decorar cuadros y objetos del hogar.</p>
+          <span class="difficulty easy">Fácil</span>
+        </article>
+        <article class="card" id="card-lavanda">
+          <div class="card-icon">💜</div>
+          <h3>Lavanda</h3>
+          <p>Pequeños nudos sobre una rama de alambre forrado. Una de las más delicadas y aromáticas en apariencia.</p>
+          <span class="difficulty medium">Intermedio</span>
+        </article>
+        <article class="card" id="card-crisantemo">
+          <div class="card-icon">🌼</div>
+          <h3>Crisantemo</h3>
+          <p>Múltiples pétalos delgados que se forman cortando y curvando tiras de cinta. Un clásico siempre elegante.</p>
+          <span class="difficulty hard">Avanzado</span>
+        </article>
+        <article class="card" id="card-girasol">
+          <div class="card-icon">🌻</div>
+          <h3>Girasol</h3>
+          <p>Pétalos dorados con un centro de tela o botón. Perfecta para decoraciones de verano y artículos juveniles.</p>
+          <span class="difficulty medium">Intermedio</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TUTORIAL ===== -->
+  <section class="section section-light" id="tutorial">
+    <div class="container">
+      <div class="section-header">
+        <span class="label-tag">📖 Paso a Paso</span>
+        <h2>Tutorial: Rosa de Satén</h2>
+        <div class="divider"></div>
+        <p class="section-desc">Aprende a hacer tu primera rosa de satén con esta guía paso a paso. ¡Solo necesitas cinta, hilo y aguja!</p>
+      </div>
+      <div class="two-col reverse">
+        <div class="col-text">
+          <ol class="steps-list">
+            <li>
+              <span class="step-num">1</span>
+              <div>
+                <strong>Corta la cinta</strong><br />
+                Corta 60–80 cm de cinta de satén de 2.5 cm de ancho. Puedes usar rosa, rojo, blanco o cualquier color que desees.
+              </div>
+            </li>
+            <li>
+              <span class="step-num">2</span>
+              <div>
+                <strong>Dobla el extremo</strong><br />
+                Dobla uno de los extremos a 45° y enróllalo 3 veces para formar el centro de la rosa. Fija con hilo y aguja.
+              </div>
+            </li>
+            <li>
+              <span class="step-num">3</span>
+              <div>
+                <strong>Crea los pétalos</strong><br />
+                Dobla la cinta hacia abajo y hacia afuera en ángulo, luego envuelve el centro cosiendo cada vuelta en la base.
+              </div>
+            </li>
+            <li>
+              <span class="step-num">4</span>
+              <div>
+                <strong>Repite y dale forma</strong><br />
+                Continúa doblando y envolviendo hasta usar toda la cinta. Cada doblez forma un nuevo pétalo natural.
+              </div>
+            </li>
+            <li>
+              <span class="step-num">5</span>
+              <div>
+                <strong>Termina y asegura</strong><br />
+                Al finalizar, dobla el extremo hacia atrás, cose para asegurar y corta el hilo. ¡Tu rosa está lista!
+              </div>
+            </li>
+          </ol>
+          <div class="tip-box">
+            <span class="tip-icon">💡</span>
+            <p><strong>Consejo Pro:</strong> Pasa la parte trasera de un encendedor ligeramente por los bordes cortados de la cinta para evitar que se deshilachen.</p>
+          </div>
+        </div>
+        <div class="col-image">
+          <img src="img/ribbon_roses_tutorial.png" alt="Tutorial de rosas de cinta" class="rounded-img" />
+          <div class="img-caption">Rosas de satén hechas con la técnica de doblado</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MATERIALES ===== -->
+  <section class="section section-gradient" id="materiales">
+    <div class="container">
+      <div class="section-header light">
+        <span class="label-tag">🛍️ Lo que Necesitas</span>
+        <h2>Materiales Esenciales</h2>
+        <div class="divider white"></div>
+        <p class="section-desc">Con pocos materiales puedes comenzar a crear flores únicas desde casa.</p>
+      </div>
+      <div class="materials-grid">
+        <div class="material-item">
+          <div class="mat-icon">🎀</div>
+          <h4>Cintas de Satén</h4>
+          <p>De 1 cm, 2.5 cm y 4 cm de ancho. Elige colores variados para diferentes flores.</p>
+        </div>
+        <div class="material-item">
+          <div class="mat-icon">🕸️</div>
+          <h4>Cinta de Organza</h4>
+          <p>Su transparencia da un efecto etéreo y delicado. Ideal para pétalos de flores grandes.</p>
+        </div>
+        <div class="material-item">
+          <div class="mat-icon">✂️</div>
+          <h4>Tijeras de Tela</h4>
+          <p>Unas tijeras filosas garantizan cortes limpios y precisos sin dañar la cinta.</p>
+        </div>
+        <div class="material-item">
+          <div class="mat-icon">🪡</div>
+          <h4>Aguja e Hilo</h4>
+          <p>Hilo del mismo color que la cinta para que las costuras queden invisibles.</p>
+        </div>
+        <div class="material-item">
+          <div class="mat-icon">🔥</div>
+          <h4>Encendedor</h4>
+          <p>Para sellar los bordes de la cinta sintética y evitar que se deshilachen.</p>
+        </div>
+        <div class="material-item">
+          <div class="mat-icon">🔫</div>
+          <h4>Pistola de Silicona</h4>
+          <p>Alternativa más rápida a la costura para pegar pétalos y bases de flores.</p>
+        </div>
+        <div class="material-item">
+          <div class="mat-icon">🌿</div>
+          <h4>Alambre Floral</h4>
+          <p>Para crear tallos y armar ramos o coronas con las flores de cinta.</p>
+        </div>
+        <div class="material-item">
+          <div class="mat-icon">🖤</div>
+          <h4>Base o Broche</h4>
+          <p>Círculos de fieltro, broches o diademas donde montar tus creaciones terminadas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALERÍA ===== -->
+  <section class="section section-light" id="galeria">
+    <div class="container">
+      <div class="section-header">
+        <span class="label-tag">🖼️ Inspiración</span>
+        <h2>Galería de Creaciones</h2>
+        <div class="divider"></div>
+        <p class="section-desc">Observa la variedad de proyectos que puedes crear con cintas:</p>
+      </div>
+      <div class="gallery-grid">
+        <figure class="gallery-item big">
+          <img src="img/ribbon_flowers_hero.png" alt="Colección de flores de cintas" />
+          <figcaption>Colección de flores de diferentes técnicas</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/ribbon_roses_tutorial.png" alt="Rosas de satén rosas" />
+          <figcaption>Rosas de satén en tonos pastel</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/ribbon_wreath.png" alt="Corona de flores de cintas" />
+          <figcaption>Corona decorativa con flores variadas</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONSEJOS ===== -->
+  <section class="section section-pink" id="consejos">
+    <div class="container">
+      <div class="section-header">
+        <span class="label-tag">⭐ Recomendaciones</span>
+        <h2>Consejos de Experta</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="tips-grid">
+        <div class="tip-card">
+          <div class="tip-num">01</div>
+          <h4>Elige la cinta correcta</h4>
+          <p>La cinta de satén doble faz es la más versátil. Tiene brillo por ambos lados y da acabados profesionales.</p>
+        </div>
+        <div class="tip-card">
+          <div class="tip-num">02</div>
+          <h4>Practica con retazos</h4>
+          <p>Antes de usar tu cinta favorita, practica cada técnica con trozos pequeños hasta dominar el movimiento.</p>
+        </div>
+        <div class="tip-card">
+          <div class="tip-num">03</div>
+          <h4>Combina texturas</h4>
+          <p>Mezcla cintas de satén con organza y grosgrain en la misma flor para lograr efectos naturales únicos.</p>
+        </div>
+        <div class="tip-card">
+          <div class="tip-num">04</div>
+          <h4>Paleta de colores</h4>
+          <p>Usa una paleta de 2 a 3 colores complementarios para arreglos más elegantes y armoniosos.</p>
+        </div>
+        <div class="tip-card">
+          <div class="tip-num">05</div>
+          <h4>Guarda tus recortes</h4>
+          <p>Los trozos pequeños de cinta sirven para crear flores miniatura, pistílos o relleno para centros de flores.</p>
+        </div>
+        <div class="tip-card">
+          <div class="tip-num">06</div>
+          <h4>Protege tus flores</h4>
+          <p>Aplica una capa de laca para tela sobre las flores terminadas para protegerlas del polvo y la humedad.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="nav-icon">🌸</span>
+        <span class="footer-title">Arte en Tus Manos</span>
+      </div>
+      <p class="footer-tagline">Creando belleza, un doblez a la vez.</p>
+      <nav class="footer-links" aria-label="Navegación del pie de página">
+        <a href="#inicio">Inicio</a>
+        <a href="#tipos">Tipos</a>
+        <a href="#tutorial">Tutorial</a>
+        <a href="#materiales">Materiales</a>
+        <a href="#galeria">Galería</a>
+      </nav>
+      <p class="footer-copy">&copy; 2026 Arte en Tus Manos · Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <!-- ===== CHATBOT WIDGET ===== -->
+  <div id="chatbot-fab" aria-label="Abrir asistente" title="Chat con RosaBot">
+    <span class="fab-icon" id="fab-icon">🌸</span>
+    <span class="fab-pulse"></span>
+  </div>
+
+  <div id="chatbot-panel" role="dialog" aria-modal="true" aria-label="Asistente RosaBot" hidden>
+    <div class="cb-header">
+      <div class="cb-avatar">🌸</div>
+      <div class="cb-header-info">
+        <strong>RosaBot</strong>
+        <span class="cb-status">● En línea</span>
+      </div>
+      <button class="cb-close" id="cb-close" aria-label="Cerrar chat">✕</button>
+    </div>
+    <div class="cb-messages" id="cb-messages" role="log" aria-live="polite">
+      <div class="cb-msg bot">
+        <div class="cb-bubble">¡Hola! 🌸 Soy <strong>RosaBot</strong>, tu asistente de flores de cintas. ¿En qué puedo ayudarte hoy?</div>
+      </div>
+    </div>
+    <div class="cb-suggestions">
+      <button class="cb-chip" data-msg="¿Qué flores puedo hacer?">🌺 Tipos de flores</button>
+      <button class="cb-chip" data-msg="¿Qué materiales necesito?">🛍️ Materiales</button>
+      <button class="cb-chip" data-msg="¿Cómo hago una rosa?">🌹 Tutorial rosa</button>
+      <button class="cb-chip" data-msg="Dame un consejo">💡 Consejos</button>
+    </div>
+    <form class="cb-input-row" id="cb-form" autocomplete="off">
+      <input type="text" id="cb-input" placeholder="Escribe tu pregunta..." aria-label="Escribe tu mensaje" maxlength="200" />
+      <button type="submit" id="cb-send" aria-label="Enviar">➤</button>
+    </form>
+  </div>
+
+  <script>
+    // Simple hamburger toggle
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+
+    // Smooth active navbar link highlight on scroll
+    const sections = document.querySelectorAll('section[id]');
+    const navItems = document.querySelectorAll('.nav-links a');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(sec => {
+        if (window.scrollY >= sec.offsetTop - 80) current = sec.getAttribute('id');
+      });
+      navItems.forEach(a => {
+        a.classList.remove('active');
+        if (a.getAttribute('href') === '#' + current) a.classList.add('active');
+      });
+    });
+
+    // Fade-in on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.card, .material-item, .tip-card, .gallery-item').forEach(el => observer.observe(el));
+
+    /* =========================================================
+       CHATBOT LOGIC
+    ========================================================= */
+    const fab      = document.getElementById('chatbot-fab');
+    const panel    = document.getElementById('chatbot-panel');
+    const closeBtn = document.getElementById('cb-close');
+    const form     = document.getElementById('cb-form');
+    const input    = document.getElementById('cb-input');
+    const messages = document.getElementById('cb-messages');
+    const fabIcon  = document.getElementById('fab-icon');
+
+    // Toggle panel
+    function openChat() {
+      panel.hidden = false;
+      panel.classList.add('cb-open');
+      fab.classList.add('open');
+      fabIcon.textContent = '✕';
+      input.focus();
+    }
+    function closeChat() {
+      panel.classList.remove('cb-open');
+      fab.classList.remove('open');
+      fabIcon.textContent = '🌸';
+      setTimeout(() => { panel.hidden = true; }, 300);
+    }
+
+    fab.addEventListener('click', () => panel.hidden ? openChat() : closeChat());
+    closeBtn.addEventListener('click', closeChat);
+
+    // Chip quick-replies
+    document.querySelectorAll('.cb-chip').forEach(chip => {
+      chip.addEventListener('click', () => sendMessage(chip.dataset.msg));
+    });
+
+    // Form submit
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      const txt = input.value.trim();
+      if (!txt) return;
+      sendMessage(txt);
+      input.value = '';
+    });
+
+    function sendMessage(text) {
+      appendMsg(text, 'user');
+      setTimeout(() => {
+        const reply = getReply(text);
+        appendMsg(reply, 'bot');
+      }, 600);
+    }
+
+    function appendMsg(text, who) {
+      const wrap = document.createElement('div');
+      wrap.className = 'cb-msg ' + who;
+      const bubble = document.createElement('div');
+      bubble.className = 'cb-bubble';
+      bubble.innerHTML = text;
+      wrap.appendChild(bubble);
+      messages.appendChild(wrap);
+      messages.scrollTop = messages.scrollHeight;
+    }
+
+    // Rule-based responses
+    const rules = [
+      { keys: ['rosa','rosas','rose'],
+        reply: '🌹 <strong>Rosa de Satén:</strong> Es la flor más popular. Corta 70 cm de cinta de satén de 2.5 cm, dobla el extremo 45° y enrólla cosiendo cada vuelta. ¡En 15 minutos tienes tu primera rosa!' },
+      { keys: ['peon','peonía','peonias'],
+        reply: '🌸 <strong>Peonía:</strong> Usa cinta de organza de 4–6 cm. Crea 15 pétalos redondeados frunciéndolos con hilo y superpónlos en capas. Nivel intermedio.' },
+      { keys: ['tulipán','tulipan','tulip'],
+        reply: '🌷 <strong>Tulipán:</strong> Dobla cinta de grosgrain en ángulos alternos de 45° para dar forma a los pétalos. Necesitas 5–6 pétalos y un pequeño pistilo central.' },
+      { keys: ['tipo','flores','variedades','hacer','crear','cuales','cuáles'],
+        reply: '🌺 Puedes crear: <strong>Rosas</strong> (fácil), <strong>Peonías</strong> (intermedio), <strong>Tulipanes</strong> (fácil), <strong>Lavanda</strong> (intermedio), <strong>Crisantemos</strong> (avanzado) y <strong>Girasoles</strong> (intermedio). ¿Cuál te interesa más?' },
+      { keys: ['material','materiales','necesito','comprar','lista'],
+        reply: '🛍️ <strong>Materiales básicos:</strong><br>• Cinta de satén doble faz (2.5 cm)<br>• Tijeras de tela<br>• Aguja e hilo del mismo color<br>• Pistola de silicona<br>• Encendedor para sellar bordes<br>• Base de fieltro o broche' },
+      { keys: ['técnica','tecnica','como','cómo','paso','pasos','tutorial'],
+        reply: '✂️ <strong>Técnicas principales:</strong><br>1. <em>Enrollado</em> → Rosas y peonías<br>2. <em>Doblado en punta</em> → Tulipanes<br>3. <em>Fruncido</em> → Flores voluminosas<br>4. <em>Bordado</em> → Directo sobre tela<br>5. <em>Sellado con calor</em> → Para pétalos curvos' },
+      { keys: ['consejo','consejos','tip','tips','mejorar','truco'],
+        reply: '💡 <strong>Mis mejores consejos:</strong><br>• Sella los bordes con encendedor<br>• Practica primero con retazos<br>• Usa máximo 3 colores por proyecto<br>• Mezcla satén + organza para más realismo<br>• Aplica laca para proteger las flores terminadas' },
+      { keys: ['historia','origen','antigua','siglo','victorian'],
+        reply: '📜 <strong>Historia:</strong> El arte de las flores de cintas nació en las cortes europeas del siglo XVII. Alcanzó su auge en la <em>era Victoriana (1837–1901)</em> donde se usaban para decorar vestidos, sombreros y el hogar.' },
+      { keys: ['proyecto','proyectos','idea','ideas','regalo','decorar'],
+        reply: '🎨 <strong>Ideas de proyectos:</strong><br>• 🌿 Corona decorativa para la puerta<br>• 💐 Ramo eterno como regalo<br>• 👒 Diadema floral de moda<br>• 🎁 Cajas de regalo decoradas<br>• 🖼️ Cuadros florales para el hogar' },
+      { keys: ['precio','costo','barato','caro','cuanto','cuánto'],
+        reply: '💰 Las flores de cintas son muy económicas. Una bobina de cinta de satén cuesta entre $1–$3 y rinde para 5–10 flores. Para comenzar con lo esencial, necesitas unos $10–$15.' },
+      { keys: ['hola','buenas','hey','saludos','buenos días','buenas tardes'],
+        reply: '👋 ¡Hola! Estoy aquí para ayudarte con todo sobre <strong>flores de cintas y manualidades</strong>. ¿Qué quieres saber? Puedes preguntar sobre flores, materiales, técnicas o proyectos.' },
+      { keys: ['gracias','muchas gracias','genial','excelente','perfecto'],
+        reply: '🌸 ¡Con mucho gusto! Recuerda que la práctica hace al maestro. ¿Necesitas saber algo más sobre flores de cintas?' },
+    ];
+
+    function getReply(text) {
+      const t = text.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+      for (const rule of rules) {
+        if (rule.keys.some(k => t.includes(k))) return rule.reply;
+      }
+      return '🤔 No estoy segura de esa pregunta. Puedes consultarme sobre <strong>tipos de flores</strong>, <strong>materiales</strong>, <strong>técnicas</strong>, <strong>proyectos</strong> o <strong>consejos</strong>. ¡Intenta con una de esas palabras!';
+    }
+  </script>
+</body>
+</html>
